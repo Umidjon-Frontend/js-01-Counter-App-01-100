@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.counter-box{
+  width: 400px;
+  background-color: #8ecae6;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+.counter-box .box-header h1{
+  font-size: 4rem;
+  color: var(--white);
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.counter-box .box-body h1{
+  font-size: 10rem;
+  color: var(--white);
+}
+.counter-box .box-body{
+  border-bottom: 2px solid #fff;
+}
+.counter-box .box-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.counter-box .box-footer .btn{
+  margin: 15px;
+  padding: 12px 18px;
+  border: 2px solid #219ebc;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #219ebc;
+  font-weight: 700;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  text-transform: capitalize;
+}
+.counter-box .box-footer .btn:nth-child(1){
+  background-color: #e63946;
+  border: 2px solid #e63946;
+  color: #fff;
+}
+.counter-box .box-footer .btn:nth-child(2){
+  background-color: #fff;
+  border: 2px solid #ffff;
+  color: #000;
+}
+.counter-box .box-footer .btn:nth-child(3){
+  background-color: #006d77;
+  border: 2px solid #006d77;
+  color: #fff;
+}
+.counter-box .box-footer .btn:active{
+  transform: scale(0.9);
+}
+.counter-box .box-footer .btn .svg-inline--fa{
+  margin-right: 5px;
+}
+
